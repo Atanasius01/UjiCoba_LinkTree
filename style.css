@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  height: 80px;
+  width: auto;
+  align-items: center;
+  border-bottom: rgb(164, 160, 160) solid 1px;
+}
+
+.navbar .navbar-logo {
+  color: ;
+  text-decoration: none;
+  font-size: 20pt;
+  font-weight: bold;
+  margin-left: 4rem;
+  width: 150px;
+}
+
+/* .navbar .navbar-nav {
+  justify-content: center;
+  margin: 0 1rem;
+} */
+
+.navbar-nav a {
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  margin: 1.5rem;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.navbar-nav a:hover {
+  color: #a8aa1e;
+  text-decoration: underline;
+}
+
+.form-search {
+  margin-right: 2rem;
+}
+
+.search {
+  border-radius: 5px;
+  border-color: aliceblue;
+  height: 30px;
+  width: 250px;
+}
+
+form button.btn-cari {
+  padding: 8px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #a8aa1e;
+  font-weight: bold;
+  color: white;
+}
+/* .btn-search {
+  background-color: #a8aa1e;
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+.home {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-image: url(bgHome.jpg);
+  position: relative;
+  background-position: center;
+}
+
+.content {
+  color: white;
+  margin-left: 4rem;
+}
+
+.content span {
+  color: #a8aa1e;
+}
+
+.content h1 {
+  font-size: 4rem;
+}
+
+.btn-adop {
+  width: 150px;
+  height: 50px;
+  background-color: #a8aa1e;
+  font-size: 12pt;
+  color: white;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-right: 3rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-adop:hover {
+  background: white;
+  color: black;
+}
+
+.btn-more {
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  border: #a8aa1e solid 2px;
+  font-size: 12pt;
+  color: #a8aa1e;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-right: 3rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-more:hover {
+  color: white;
+  background: #a8aa1e;
+}
